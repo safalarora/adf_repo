@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFPureyog"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://adlspureyog.dfs.core.windows.net/"
+		},
+		"LS_Keyvault_properties_typeProperties_baseUrl": {
+			"value": "https://KeyvaultPureyog.vault.azure.net/"
+		},
+		"LS_PostgreSql_properties_typeProperties_server": {
+			"value": "ep-purple-bird-b3ivb8rh-pooler.c-4.ap-southeast-1.aws.neon.tech"
+		},
+		"LS_PostgreSql_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSql_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"LS_SqlDatabase_properties_typeProperties_server": {
+			"value": "sqlpureyog.database.windows.net"
+		},
+		"LS_SqlDatabase_properties_typeProperties_database": {
+			"value": "SQLDatabase"
+		},
+		"LS_SqlDatabase_properties_typeProperties_userName": {
+			"value": "safalarora"
+		}
+	}
+}
