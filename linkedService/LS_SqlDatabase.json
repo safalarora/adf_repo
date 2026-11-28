@@ -1,0 +1,23 @@
+{
+	"name": "LS_SqlDatabase",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sqlpureyog.database.windows.net",
+			"database": "SQLDatabase",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "safalarora",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_Keyvault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "SQLserver"
+			}
+		}
+	}
+}
